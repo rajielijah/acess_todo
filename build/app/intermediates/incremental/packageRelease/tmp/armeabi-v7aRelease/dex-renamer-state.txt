@@ -1,0 +1,4 @@
+#Sat Aug 10 01:00:07 WAT 2024
+base.0=/Users/mac/StudioProjects/todo_app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
