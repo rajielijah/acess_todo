@@ -43,5 +43,5 @@ jobs:
       #- name: Run tests
         #run: flutter test
 
-      - name: build artifact
-        run: flutter build apk
+      - name: Build APK
+        run: flutter build apk --release --build-dir=./build/flutter
