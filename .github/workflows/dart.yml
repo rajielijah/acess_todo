@@ -63,9 +63,9 @@ jobs:
           channel: 'stable'
       - run: flutter pub get
       - run: flutter clean
-      - run: flutter build apk --release
+      - run: flutter build apk --debug
       - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
           name: apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          path: build/app/outputs/flutter-apk/app-debug.apk
